@@ -8,18 +8,18 @@ type = string
 description = "Location for RG"
 }
 
-variables "subscriptionID" {
+variable "subscriptionID" {
 type = string
 }
 
-variables "clientID" {
+variable "clientID" {
 type = string
 }
 
-variables "clientSecret" {
+variable "clientSecret" {
 type = string
 }
 
-variables "tenantID" {
+variable "tenantID" {
 type = string
 }
