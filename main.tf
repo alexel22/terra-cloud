@@ -24,6 +24,8 @@ resource "azurerm_resource_group" "tenaris-rg" {
   location = var.location
     tags = {
         APP = "IaC"
+        APP2 = Terraform
         ENV = "DEV"
+      
     }
 }
