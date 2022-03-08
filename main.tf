@@ -32,7 +32,7 @@ resource "azurerm_resource_group" "tenaris-rg" {
 
 # Create a Virtual Network 
 resource "azurerm_virtual_network" "example" {
-  name                = "example-network"
+  name                = "vnet01-from-terraloud"
   resource_group_name = azurerm_resource_group.tenaris-rg.name
   location            = azurerm_resource_group.tenaris-rg.location
   address_space       = ["10.0.0.0/16"]
