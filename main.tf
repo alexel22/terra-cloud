@@ -20,7 +20,7 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "tenaris-rg" {
-  name     = var.rg
+  name     = var.rg_name
   location = var.location
     tags = {
         APP = "IaC"
