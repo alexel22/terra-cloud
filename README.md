@@ -1,6 +1,6 @@
 # Terraform Cloud 
 
-# Crear Services Principal para Conection in Azure (form PowerShell)
+# Crear Services Principal para Conection in Azure (from PowerShell)
 ## 1- Primero seteo Consola con la Subscription donde quiero Contextualizar el nuevo SP
  az account list --output table
  
