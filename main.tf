@@ -9,11 +9,12 @@ terraform {
 
 provider "azurerm" {
     features {
-      version       = "<=2.0.0"
-      subscription  = var.subscriptionID
-      client_id     = var.clientID
-      cliente_secret= var.clientSecret
-      tenant_id     = var.tenantID
+      version = "<=2.0.0"
+      
+      subscription_id = var.subscriptionID
+      client_id = var.clientID
+      client_secret = var.clientSecret
+      tenant_id = var.tenantID
     }
 }
 
