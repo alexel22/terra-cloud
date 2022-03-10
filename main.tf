@@ -25,6 +25,7 @@ resource "azurerm_resource_group" "tenaris-rg" {
     tags = {
         APP = "IaC"
         ENV = "DEV"
+        APP = "Terra-Cloud"
       
     }
 }
